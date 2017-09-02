@@ -7,8 +7,10 @@
     "test": "test"
   },
   "scripts": {
-    "test": "truffle test",
-    "testrpc": "docker run --rm -p 8545:8545 -it or13/testrpc "
+    "docker:build": "docker build -t or13/testrpc ./testrpc",
+    "docker:publish": "docker push or13/testrpc",
+    "docker:start": "docker run --rm -p 8545:8545 -it or13/testrpc ",
+    "test": "truffle test"
   },
   "repository": {
     "type": "git",
