@@ -1,0 +1,23 @@
+{
+  "name": "azure-testrpc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test",
+    "testrpc": "docker run --rm -p 8545:8545 -it or13/testrpc "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/transmute-industries/azure-testrpc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/transmute-industries/azure-testrpc/issues"
+  },
+  "homepage": "https://github.com/transmute-industries/azure-testrpc#readme"
+}
